@@ -1,6 +1,6 @@
 ﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 // for details on configuring this project to bundle and minify static web assets.
-
+const MOVIEAPP_API = 'https://movieapp-student02.azurewebsites.net/api/movie';
 // Write your JavaScript code.
 
 const $id = (id) => document.getElementById(id);
