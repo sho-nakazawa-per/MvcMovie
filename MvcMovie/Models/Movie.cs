@@ -67,7 +67,7 @@ public static class MovieEndpoints
             var affected = await db.Movie
                 .Where(model => model.ID == id)
                 .ExecuteUpdateAsync(setters => setters
-                  .SetProperty(m => m.ID, movie.ID)
+                  // .SetProperty(m => m.ID, movie.ID)
                   .SetProperty(m => m.Title, movie.Title)
                   .SetProperty(m => m.ReleaseDate, movie.ReleaseDate)
                   .SetProperty(m => m.Genre, movie.Genre)
